@@ -495,7 +495,7 @@ a.header_link:visited {
 
 .mini_info_energy {
     height: auto;
-    width: 100%;
+    width: 90%;
     justify-items: center;
     gap: 10px;
     margin: 30px 30px;
@@ -532,7 +532,7 @@ width: 100%;
 
 .wrapper_footer_text {
     display: grid;
-    width: 100%;
+    width: 80%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 0;
