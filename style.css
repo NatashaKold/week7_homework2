@@ -29,6 +29,7 @@ a.header_link:visited {
 
 .container {
     font-family: "Roboto", sans-serif;
+    width: 100%;
 }
 
 .header {
@@ -182,7 +183,6 @@ a.header_link:visited {
 }
 
 .block1 {
-    
     display: grid;
     gap: 1em;
     justify-items: center;
@@ -490,7 +490,7 @@ a.header_link:visited {
 
 .block2 {
     grid-template-columns: 1fr;
-    grid-template-rows: 55% 45%;
+    grid-template-rows: 50% 50%;
 }
 
 .mini_info_energy {
@@ -498,12 +498,16 @@ a.header_link:visited {
     width: 90%;
     justify-items: center;
     gap: 10px;
-    margin: 30px 30px;
+    margin:  0 30px 30px;
 }
 
 .block2_title {
     font-size: 4em;
     margin-left: 40%;
+}
+
+.text {
+    width: 70%;
 }
 
 .taste_energy {
