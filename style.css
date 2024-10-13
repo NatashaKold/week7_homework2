@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 a {
     text-decoration: none;
@@ -28,7 +32,6 @@ a.header_link:visited {
 .header {
     display: grid;
     grid-template-columns: 1fr;
-    width: 100%;
 }
 
 .top_line {
@@ -46,7 +49,7 @@ a.header_link:visited {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-content: start;
-    margin: 30px 25px 25px;
+    /* padding: 30px 25px 25px; */
 }
 
 .nav2 {
@@ -56,7 +59,7 @@ a.header_link:visited {
     grid-template-rows: auto;
     justify-content: end;
     text-align: end;
-    margin: 30px 25px 25px;
+    /* padding: 30px 25px 25px; */
 }
 
 .basket {
@@ -67,7 +70,7 @@ a.header_link:visited {
     display: grid;
     grid-area: logo;
     align-self: center;
-    margin: 15px 25px;
+    /* padding: 1em 3em; */
 }
 
 .nav2 {
@@ -78,265 +81,266 @@ a.header_link:visited {
     display: grid;
     background-color: #005466;
     background-image: url(assets/Header_background.png);
+    background-size: cover;
     height: 54em;
     font-family: "Roboto", sans-serif;
 }
 
 .text_block {
-  float: left;
-  width: 30%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat 3, 1fr;
-  gap: 30px;
-  margin: 10% 10% 20%;
-  color: white;
+    float: left;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 3, 1fr;
+    gap: 30px;
+    margin: 10% 10% 20%;
+    color: white;
 }
 
 .title {
-  font-size: 3.5em;
-  font-weight: bold;
+    font-size: 3.5em;
+    font-weight: bold;
 }
 
 .text {
-  font-size: 20px;
+    font-size: 1em;
 }
 
 .black_button {
-  background-color: black;
-  padding: 20px 30px;
-  color: white;
+    background-color: black;
+    /* padding: 20px 30px; */
+    color: white;
 }
 
 .cookies_disclaimer {
-  position: absolute;
-  top: 90%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 60% 25% 15%;
-  align-content: center;
-  color: white;
-  font-size: 1em;
-  background-color: black;
-  height: 4em;
-  margin: 25px 0 0;
-  padding-left: 20px;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 25% 15%;
+    align-content: center;
+    color: white;
+    font-size: 1em;
+    background-color: black;
+    height: 4em;
+    /* margin: 25px 0 0; */
+    padding-left: 20px;
 }
 
 .learn_more {
-  align-content: start;
+    align-content: start;
 }
 
 .learn_more:visited {
-  color: white;
+    color: white;
 }
 
 .got_it {
-  border-radius: 5px;
-  height: 150%;
-  width: 70%;
-  align-self: center;
-  justify-self: center;
+    border-radius: 5px;
+    height: 150%;
+    width: 70%;
+    align-self: center;
+    justify-self: center;
 }
 
 .buffer {
-  height: 12em;
-  background-color: #F0FAF7;
+    height: 12em;
+    background-color: #F0FAF7;
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 1fr;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .subtitle {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin: 25px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 25px;
 }
 
 .block1 {
-    width: 100%;
-  display: grid;
-  gap: 1em;
-  justify-items: center;
-  text-align: center;
-  margin: 2em 0 6em;
+    
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    text-align: center;
+    margin: 2em 0 6em;
 }
 
 .block1_text {
-  margin: 10% 0 0;
-  width: 50%;
+    margin: 10% 0 0;
+    width: 50%;
 }
 
 .wrapper-shop {
     width: 100%;
-  margin: 1em 0;
+    margin: 1em 0;
 }
 
 .assortment {
-  display: grid;
-  gap: 1em;
-  grid-template-columns: repeat 3, 1fr;
-  grid-template-rows: auro;
-  justify-content: center;
-  margin-top: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat 3, 1fr;
+    grid-template-rows: auro;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .energy-focus {
-  grid-column: 1/2;
-  background-color: #005466;
-  width: 18em;
-  height: 15.5em;
-  display: grid;
-  justify-content: center;
+    grid-column: 1/2;
+    background-color: #005466;
+    width: 18em;
+    height: 15.5em;
+    display: grid;
+    justify-content: center;
 }
 
 .calm-clarity {
-  grid-column: 2/3;
-  background-color: #F7D8BF;
-  width: 18em;
-  height: 15.5em;
-  display: grid;
-  justify-content: center;
+    grid-column: 2/3;
+    background-color: #F7D8BF;
+    width: 18em;
+    height: 15.5em;
+    display: grid;
+    justify-content: center;
 }
 
 .ideal-state {
-  grid-column: 3/4;
-  background-color: #F1FAF6;
-  width: 18em;
-  height: 15.5em;
-  display: grid;
-  justify-content: center;
+    grid-column: 3/4;
+    background-color: #F1FAF6;
+    width: 18em;
+    height: 15.5em;
+    display: grid;
+    justify-content: center;
 }
 
 .energy-icon {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .calm-icon {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .ideal-icon {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .energy-text {
-  color: #F6F9E5;
-  font-size: 1em;
-  margin: 0 20px;
+    color: #F6F9E5;
+    font-size: 1em;
+    margin: 0 20px;
 }
 
 .calm-text {
-  color: #C47B59;
-  font-size: 1em;
-  margin: 0 20px;
+    color: #C47B59;
+    font-size: 1em;
+    margin: 0 20px;
 }
 
 .ideal-text {
-  color: #64BAA1;
-  font-size: 1em;
-  margin: 0 20px;
+    color: #64BAA1;
+    font-size: 1em;
+    margin: 0 20px;
 }
 
 .button_block1 {
-  border: 2px solid black;
-  width: 11em;
-  height: 2em;
+    border: 2px solid black;
+    width: 11em;
+    height: 2em;
 }
 
 .buffer_frame1 {
-  height: 6em;
-  width: 100%;
+    height: 6em;
+    width: 100%;
 }
 
 .block2 {
     width: 100%;
-  background-color: #005466;
-  padding: 9em 3em;
-  display: grid;
-  grid-template-columns: 55% 45%;
+    background-color: #005466;
+    padding: 9em 3em;
+    display: grid;
+    grid-template-columns: 55% 45%;
 }
 
 .energy-img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mini_info_energy {
-  height: 50%;
-  width: 70%;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
-  margin: 20% 10% 20%;
-  color: #F6F9E5;
+    height: 50%;
+    width: 70%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin: 20% 10% 20%;
+    color: #F6F9E5;
 }
 
 .block2_title {
-  font-size: 3.5em;
+    font-size: 3.5em;
 }
 
 .taste_energy {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
 }
 
 .shop-energy {
-  width: 16em;
-  height: 3em;
-  background-color: #005466;
-  border: 1px solid #F6F9E5;
-  color: #F6F9E5;
+    width: 16em;
+    height: 3em;
+    background-color: #005466;
+    border: 1px solid #F6F9E5;
+    color: #F6F9E5;
 }
 
 .buffer_frame2 {
-  height: 6em;
-  width: 100%;
+    height: 6em;
+    width: 100%;
 }
 
 .share_tag {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  padding: 6em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 6em;
 }
 
 .share_title {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .final_block {
-  background-image: url(assets/footer_bg.png);
-  width: 100%;
-  height: 44em;
+    background-image: url(assets/footer_bg.png);
+    width: 100%;
+    height: 44em;
 }
 
 .final_block_title {
-  font-size: 3.5em;
-  margin: 30px;
+    font-size: 3.5em;
+    margin: 2em;
 }
 
 .wrapper_footer_text {
-  color: white;
-  float: left;
-  width: 30%;
-  height: 30%;
-  margin: 6em;
+    color: white;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 6em;
 }
 
 .get_neuro {
-  width: 16em;
-  height: 4em;
-  background-color: black;
-  color: white;
+    width: 16em;
+    height: 4em;
+    background-color: black;
+    color: white;
 }
