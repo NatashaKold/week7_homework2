@@ -424,7 +424,7 @@ a.header_link:visited {
 
 .text_block {
     background-color: #005466;
-    width: 100%;
+    width: 60%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
