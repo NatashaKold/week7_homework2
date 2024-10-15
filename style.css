@@ -302,6 +302,10 @@ a.header_link:visited {
     object-fit: cover;
 }
 
+.blue_box{
+    width: 100%;
+}
+
 .mini_info_energy {
     height: 50%;
     width: 70%;
