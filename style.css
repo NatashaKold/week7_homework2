@@ -217,28 +217,31 @@ a.header_link:visited {
 .energy-focus {
     grid-column: 1/2;
     background-color: #005466;
-    width: 18em;
-    height: 15.5em;
+    /* width: 18em;
+    height: 15.5em; */
     display: grid;
     justify-content: center;
+    padding: 45px 20px;
 }
 
 .calm-clarity {
     grid-column: 2/3;
     background-color: #F7D8BF;
-    width: 18em;
-    height: 15.5em;
+    /* width: 18em;
+    height: 15.5em; */
     display: grid;
     justify-content: center;
+    padding: 45px 20px;
 }
 
 .ideal-state {
     grid-column: 3/4;
     background-color: #F1FAF6;
-    width: 18em;
-    height: 15.5em;
+    /* width: 18em;
+    height: 15.5em; */
     display: grid;
     justify-content: center;
+    padding: 45px 20px;
 }
 
 .energy-icon {
@@ -469,7 +472,7 @@ a.header_link:visited {
     justify-content: center;
 }
 
-.energy-focus {
+/* .energy-focus {
     width: 36em;
     height: 31em;
 } 
@@ -482,7 +485,7 @@ a.header_link:visited {
 .ideal-state {
     width: 36em;
     height: 31em;
-}
+} */
 
 .energy-text, .calm-text, .ideal-text {
     font-size: 2em;    
